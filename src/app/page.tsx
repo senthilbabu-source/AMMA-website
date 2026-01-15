@@ -38,6 +38,23 @@ export default function Home() {
 
         <div className="relative z-20 max-w-7xl mx-auto px-6 text-center space-y-8">
           <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="flex justify-center pb-6"
+          >
+            <div className="relative w-32 h-32 md:w-40 md:h-40">
+              <Image
+                src="/images/AMMA_logofinal.png"
+                alt="AMMA Logo"
+                fill
+                className="object-contain drop-shadow-2xl"
+                priority
+              />
+            </div>
+          </motion.div>
+
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}

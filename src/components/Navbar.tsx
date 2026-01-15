@@ -30,8 +30,8 @@ export function Navbar() {
                         <span className="sr-only">AMMA Atlanta</span>
                         <div className="relative h-14 w-14 flex-shrink-0">
                             <Image
-                                src="/logo-icon.png"
-                                alt="AMMA Logo Symbol"
+                                src="/images/AMMA_logofinal.png"
+                                alt="AMMA Logo"
                                 fill
                                 className="object-contain"
                                 priority

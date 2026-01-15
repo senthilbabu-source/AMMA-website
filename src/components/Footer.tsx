@@ -14,8 +14,8 @@ export function Footer() {
                         <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
                             <div className="relative h-12 w-12 flex-shrink-0">
                                 <Image
-                                    src="/logo-icon.png"
-                                    alt="AMMA Logo Symbol"
+                                    src="/images/AMMA_logofinal.png"
+                                    alt="AMMA Logo"
                                     fill
                                     className="object-contain"
                                 />
